@@ -14,12 +14,12 @@
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
         <activity
-            android:name=".ExemploCicloVida"
+            android:name="com.CicloVidaPacakge.ExemploCicloVida"
             android:label="@string/app_name" >
             
         </activity>
         <activity
-            android:name=".ExemploCiclovidaAbrirTela"
+            android:name="com.CicloVidaPacakge.ExemploCiclovidaAbrirTela"
             android:label="@string/title_activity_exemplo_ciclovida_abrir_tela" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -28,7 +28,7 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".Tela2"
+            android:name="com.CicloVidaPacakge.Tela2"
             android:label="@string/title_activity_tela2" >
         </activity>
     </application>
